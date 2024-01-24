@@ -2,7 +2,7 @@ body {
     font-family: 'Calibri', Times, serif;
 }
 
-table {
+.transactionHistory {
     margin-top: 10px;
 }
 
