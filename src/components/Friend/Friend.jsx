@@ -6,7 +6,7 @@ export default function Friend({ friend: { avatar, name, isOnline } }) {
         <div className={css.container}>
             <img className={css.avatar} src={avatar} alt={`${name} avatar`} />
             <p className={css.name}>{name}</p>
-            <p className={status}>{isOnline ? "Online" : "Offline"}</p>
+            <span className={status}>{isOnline ? "Online" : "Offline"}</span>
         </div>
     )
 }

@@ -24,6 +24,5 @@ tr:nth-child(even) {
 }
 
 .tbItem {
-    composes: thItem;
     text-transform: capitalize;
 }
